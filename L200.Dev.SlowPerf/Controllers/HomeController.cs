@@ -16,7 +16,10 @@ namespace L200.Dev.SlowPerf.Controllers
 
         public ActionResult Crash()
         {
-            throw new Exception("code is HelloWorld");
+          //  Unhandled Exception
+          //  throw new Exception("code is HelloWorld");
+
+          return View();
         }
         public ActionResult Index()
         {
